@@ -26,11 +26,12 @@ public class Zoologico {
 		this.zonas.add(zona);
 	}
 	
-	public void cantidadTotalAnimales() {
+	public int cantidadTotalAnimales() {
 		int cont = 0;
 		for (Zona zonas: this.zonas) {
 			cont += zonas.cantidadAnimales();
 		}
+		return cont;
 	}
 
 	public String getNombre() {
