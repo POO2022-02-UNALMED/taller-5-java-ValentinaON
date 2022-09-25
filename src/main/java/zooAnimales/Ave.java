@@ -27,9 +27,9 @@ public class Ave extends Animal {
 	public static int cantidadAves() {
 		if (Ave.listado != null) {
 			return Ave.listado.size();
+		}else {
+			return 0;
 		}
-		return 0;
-		
 	}
 	
 	@Override
