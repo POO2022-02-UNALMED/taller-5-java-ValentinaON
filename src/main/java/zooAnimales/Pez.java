@@ -28,7 +28,10 @@ public class Pez extends Animal{
 	}
 	
 	public static int cantidadPeces() {
-		return Pez.listado.size();
+		if (Pez.listado != null) {
+			return Pez.listado.size();
+		}
+		return 0;
 	}
 	
 	@Override

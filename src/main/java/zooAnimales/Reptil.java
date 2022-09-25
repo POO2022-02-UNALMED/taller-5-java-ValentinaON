@@ -28,7 +28,10 @@ public class Reptil extends Animal {
 	}
 	
 	public static int  cantidadReptiles() {
-		return Reptil.listado.size();
+		if (Reptil.listado != null) {
+			return Reptil.listado.size();
+		}
+		return 0;
 	}
 	
 	@Override
