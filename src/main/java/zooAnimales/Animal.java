@@ -13,19 +13,19 @@ public class Animal {
 		Animal.totalAnimales++;
 	}
 	
-	public Animal(String nombre, int edad, String habitad, String genero, Zona zonas) {
+	public Animal(String nombre, int edad, String habitat, String genero, Zona zonas) {
 		this.nombre = nombre;
 		this.edad = edad;
-		this.habitat = habitad;
+		this.habitat = habitat;
 		this.genero = genero;
 		this.zonas = zonas;
 		Animal.totalAnimales++;
 	}
 	
-	public Animal(String nombre, int edad, String habitad, String genero) {
+	public Animal(String nombre, int edad, String habitat, String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
-		this.habitat = habitad;
+		this.habitat = habitat;
 		this.genero = genero;
 		Animal.totalAnimales++;
 	}
@@ -84,11 +84,11 @@ public class Animal {
 		this.edad = edad;
 	}
 
-	public String getHabitad() {
+	public String getHabitat() {
 		return habitat;
 	}
 
-	public void setHabitad(String habitat) {
+	public void setHabitat(String habitat) {
 		this.habitat = habitat;
 	}
 
